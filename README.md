@@ -35,3 +35,16 @@ If you need to contact me about anything, you can reach me through the following
 [LinkedIn](http://linkedin.com/in/ida-katrine-presttun-brekken-aa2659206)
 
 ## Acknowledgments
+
+Fonts are downloaded and installed from [GoogleFonts](https://fonts.google.com/)
+
+- [BadScript](https://fonts.google.com/specimen/Bad+Script?query=bad+script)
+- [Oranienbaum](https://fonts.google.com/specimen/Oranienbaum?query=oranienbaum)
+- [CarroisGothic](https://fonts.google.com/specimen/Carrois+Gothic?query=carrois)
+
+Icons are downloaded from [Flaticon](https://www.flaticon.com/)
+
+- Nur Farhan: Arrow up [ArrowBlackFill](https://www.flaticon.com/packs/arrow-631)
+- Freepik: GitHub icon [InternetSquare](https://www.flaticon.com/packs/internet-67)
+- Freepik: Social media icons [SocialSwuare](https://www.flaticon.com/packs/social-37)
+- Creatype: Website icon [WebsiteGlyph](https://www.flaticon.com/packs/website-21)

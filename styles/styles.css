@@ -1,110 +1,265 @@
 /********** ASSETS **********/
 
-    /***** COLOURS
-        #333333, hsl(0, 0%, 20%),  rgb(51, 51, 51); - Main background (gray)
-        #353827, hsl(71, 18%, 19%), rgb(54, 57, 40) - Alternate background (moss green)
-        #5f7000, hsl(69, 100%, 22%), rgb(95, 112, 0) - Main text (forest green)
-        #abb8c3,  hsl(207, 17%, 72%), rgb(171, 185, 196) - Alternate text (sky blue)
-        #fcb900, hsl(44, 100%, 49%), rgb(250, 183, 0) - CTA (gold)
+/***** COLOURS
 
-    *****/
+#333333, hsl(0, 0%, 20%),  rgb(51, 51, 51); - Main background (gray)
+#353827, hsl(71, 18%, 19%), rgb(54, 57, 40) - Alternate background (moss green)
+#5f7000, hsl(69, 100%, 22%), rgb(95, 112, 0) - Main text (forest green)
+#abb8c3,  hsl(207, 17%, 72%), rgb(171, 185, 196) - Alternate text (sky blue)
+#fcb900, hsl(44, 100%, 49%), rgb(250, 183, 0) - CTA (gold)
 
-    /***** FONTS *****/
-        /* Headers
-        @font-face {
-            font-family: ;
-            src: url();
-        } */
+*****/
 
-        /* Paragraphs
-        @font-face {
-            font-family: ;
-            src: url();
-        } */
-    
-    /***** VARIABLES *****/
-        .variables {
-            --mainbg: #333333;
-            --altbg: #353827;
-            --maintxt: #5f7000;
-            --alttxt: #abb8c3;
-            --cta: #fcb900;
-            --header: ;
-            --paragraph: ;
-        }
-  
+/***** FONTS *****/
+/* Logo */
+@font-face {
+  font-family: "Bad Script";
+  src: url("../fonts/BadScript-Regular.ttf");
+}
+
+/* Headers */
+@font-face {
+  font-family: Oranienbaum;
+  src: url("../fonts/Oranienbaum-Regular.ttf");
+}
+
+/* Paragraphs */
+@font-face {
+  font-family: "Carrois Gothic";
+  src: url("../fonts/CarroisGothic-Regular.ttf");
+}
+
+/***** VARIABLES *****/
+.variables {
+  --mainbg: #333333;
+  --altbg: #353827;
+  --maintxt: #5f7000;
+  --alttxt: #abb8c3;
+  --cta: #fcb900;
+  --logo: "Bad Script", "Lucida Handwriting", monospace;
+  --header: Oranienbaum, Georgia, serif;
+  --paragraph: "Carrois Gothic", Arial, sans-serif;
+}
+
 /********** GLOBAL **********/
 
-    /***** CONTAINERS *****/
+/***** CONTAINERS *****/
 
-    header, footer {
-        background-color: var(--altbg);
-        color: var(--alttxt);
-        display: flex;
-        justify-content: space-around;
-    }
+header,
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: -8px;
+  left: 0;
+  background-color: var(--altbg);
+  color: var(--alttxt);
+}
 
-    main {
-        background-color: var(--mainbg);
-        color: var(--maintxt);
-    }
+header {
+  top: 0;
+  height: 140px;
+  border-bottom: 3px solid var(--cta);
+}
 
-    /***** HEADERS *****/
+#sitename {
+  text-align: center;
+}
 
-    #logo, #contact {
-        color: var(--cta);
-    }
+footer {
+  bottom: 0;
+  height: 120px;
+  padding: 5px 20px 25px 20px;
+  border-top: 3px solid var(--cta);
+}
 
-    #slogan, #copyright {
-        color: var(--alttxt);
-    }
+body {
+  background-color: var(--mainbg);
+  color: var(--maintxt);
+}
 
-    /***** LINKS *****/
+#cardContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
 
-    /***** CONTENT *****/
-    #navigation, #projectPreview {
-        list-style-type: none;
-    }
+#about {
+  margin: 50px -8px 0px -8px;
+  padding: 0px 120px 100px 120px;
+  background-color: var(--alttxt);
+  border-top: 3px solid var(--cta);
+}
 
-    #navigation li {
-        display: inline;
-        padding: 5px 15px;
-    }
+#picContainer {
+  text-align: center;
+}
+
+/***** HEADERS *****/
+
+#contact {
+  margin-bottom: 5px;
+}
+
+#logo {
+  font-family: var(--logo);
+  font-size: 2.5rem;
+  margin: 20px auto -20px auto;
+}
+
+#slogan,
+#navigation,
+#contact,
+#copyright,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--header);
+}
+
+#slogan {
+  font-size: 1.8rem;
+  margin-top: -20px;
+}
+
+h2 {
+  margin: 75px auto;
+  font-size: 2rem;
+  color: var(--alttxt);
+}
+
+#about h2 {
+  color: var(--maintxt);
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+h4,
+#contact,
+#copyTxt {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.3rem;
+}
+
+h6 {
+  font-size: 1.1rem;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#logo,
+#navigation,
+#contact,
+a {
+  color: var(--cta);
+}
+
+#slogan,
+#copyright {
+  color: var(--alttxt);
+}
+
+/***** LINKS *****/
+
+a {
+  color: var(--cta);
+}
+
+/***** CONTENT *****/
+
+p,
+li {
+  font-family: var(--paragraph);
+  font-weight: 600;
+}
+
+#navigation {
+  margin-top: 100px;
+  list-style-type: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#navigation li {
+  display: inline;
+  padding: 5px 15px;
+}
+
+.card {
+  padding: 10px;
+  background-color: var(--altbg);
+  color: var(--alttxt);
+  max-width: 300px;
+  text-align: center;
+  border: 1px solid var(--cta);
+  border-radius: 15px;
+}
+
+.preview {
+  max-width: 300px;
+  border: 1px solid var(--cta);
+  border-radius: 15px;
+}
+
+.icon {
+  width: 45px;
+  padding: 0px 5px;
+}
+
+#profilePic {
+  width: 100px;
+  border: 1px solid var(--cta);
+  border-radius: 15px;
+}
 
 /********** MEDIA QUERIES **********/
 
-    /***** MOBILE *****/
-    @media only screen and (max-width: 500px) {
-        /*** CONTAINERS ***/
+/***** MOBILE *****/
+@media only screen and (max-width: 500px) {
+  /*** CONTAINERS ***/
 
-        /*** HEADERS ***/
+  /*** HEADERS ***/
 
-        /*** LINKS ***/
+  /*** LINKS ***/
 
-        /*** CONTENT ***/
+  /*** CONTENT ***/
+}
 
-    }
+/***** TABLET *****/
+@media only screen and (min-width: 500px) {
+  /*** CONTAINERS ***/
 
-    /***** TABLET *****/
-    @media only screen and (min-width: 500px) {
-        /*** CONTAINERS ***/
+  /*** HEADERS ***/
 
-        /*** HEADERS ***/
+  /*** LINKS ***/
 
-        /*** LINKS ***/
+  /*** CONTENT ***/
+}
 
-        /*** CONTENT ***/
+/***** DESKTOP *****/
+@media only screen and (min-width: 910px) {
+  /*** CONTAINERS ***/
 
-    }
+  /*** HEADERS ***/
 
-    /***** DESKTOP *****/
-    @media only screen and (min-width: 910px) {
-        /*** CONTAINERS ***/
+  /*** LINKS ***/
 
-        /*** HEADERS ***/
-
-        /*** LINKS ***/
-
-        /*** CONTENT ***/
-
-    }
+  /*** CONTENT ***/
+}
