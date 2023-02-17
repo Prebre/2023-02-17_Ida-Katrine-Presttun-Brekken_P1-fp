@@ -1,11 +1,11 @@
 /********** ASSETS **********/
 
     /***** COLOURS
-        ### - Main background ()
-        ### - Alternate background ()
-        ### - Main text ()
-        ### - Alternate text ()
-        ### - CTA ()
+        #333333, hsl(0, 0%, 20%),  rgb(51, 51, 51); - Main background (gray)
+        #353827, hsl(71, 18%, 19%), rgb(54, 57, 40) - Alternate background (moss green)
+        #5f7000, hsl(69, 100%, 22%), rgb(95, 112, 0) - Main text (forest green)
+        #abb8c3,  hsl(207, 17%, 72%), rgb(171, 185, 196) - Alternate text (sky blue)
+        #fcb900, hsl(44, 100%, 49%), rgb(250, 183, 0) - CTA (gold)
 
     *****/
 
@@ -24,18 +24,52 @@
     
     /***** VARIABLES *****/
         .variables {
-
+            --mainbg: #333333;
+            --altbg: #353827;
+            --maintxt: #5f7000;
+            --alttxt: #abb8c3;
+            --cta: #fcb900;
+            --header: ;
+            --paragraph: ;
         }
   
 /********** GLOBAL **********/
 
     /***** CONTAINERS *****/
 
+    header, footer {
+        background-color: var(--altbg);
+        color: var(--alttxt);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    main {
+        background-color: var(--mainbg);
+        color: var(--maintxt);
+    }
+
     /***** HEADERS *****/
+
+    #logo, #contact {
+        color: var(--cta);
+    }
+
+    #slogan, #copyright {
+        color: var(--alttxt);
+    }
 
     /***** LINKS *****/
 
     /***** CONTENT *****/
+    #navigation, #projectPreview {
+        list-style-type: none;
+    }
+
+    #navigation li {
+        display: inline;
+        padding: 5px 15px;
+    }
 
 /********** MEDIA QUERIES **********/
 
