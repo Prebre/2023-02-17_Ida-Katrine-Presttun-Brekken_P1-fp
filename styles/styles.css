@@ -1,0 +1,76 @@
+/********** ASSETS **********/
+
+    /***** COLOURS
+        ### - Main background ()
+        ### - Alternate background ()
+        ### - Main text ()
+        ### - Alternate text ()
+        ### - CTA ()
+
+    *****/
+
+    /***** FONTS *****/
+        /* Headers
+        @font-face {
+            font-family: ;
+            src: url();
+        } */
+
+        /* Paragraphs
+        @font-face {
+            font-family: ;
+            src: url();
+        } */
+    
+    /***** VARIABLES *****/
+        .variables {
+
+        }
+  
+/********** GLOBAL **********/
+
+    /***** CONTAINERS *****/
+
+    /***** HEADERS *****/
+
+    /***** LINKS *****/
+
+    /***** CONTENT *****/
+
+/********** MEDIA QUERIES **********/
+
+    /***** MOBILE *****/
+    @media only screen and (max-width: 500px) {
+        /*** CONTAINERS ***/
+
+        /*** HEADERS ***/
+
+        /*** LINKS ***/
+
+        /*** CONTENT ***/
+
+    }
+
+    /***** TABLET *****/
+    @media only screen and (min-width: 500px) {
+        /*** CONTAINERS ***/
+
+        /*** HEADERS ***/
+
+        /*** LINKS ***/
+
+        /*** CONTENT ***/
+
+    }
+
+    /***** DESKTOP *****/
+    @media only screen and (min-width: 910px) {
+        /*** CONTAINERS ***/
+
+        /*** HEADERS ***/
+
+        /*** LINKS ***/
+
+        /*** CONTENT ***/
+
+    }
