@@ -129,11 +129,27 @@
           finished with my studies by March 2025.
         </p>
       </section>
-    </main>
 
-    <footer>
+      <section id="contact">
+        <h2>Contact me</h2>
+        <form id="contactForm" name="contactForm" onsubmit="return validate()">
+          <label for="fullname">Name</label><br />
+          <input type="text" id="fullname" name="fullname" /><br />
+
+          <label for="mail">Mail</label><br />
+          <input type="email" id="mail" name="mail" /><br />
+
+          <label for="subject">Subject</label><br />
+          <input type="text" id="subject" name="subject" /><br />
+
+          <label for="message">Message</label><br />
+          <textarea id="message" name="message"></textarea><br />
+
+          <button id="submit">Submit</button>
+        </form>
+      </section>
       <section id="socials">
-        <h4 id="contact">Contact me:</h4>
+        <h3 class="social-media">My social profiles:</h3>
         <a href="#"
           ><img
             class="icon"
@@ -171,6 +187,9 @@
             alt="Paper plane icon linked to my email address"
         /></a>
       </section>
+    </main>
+
+    <footer>
       <section id="copyright">
         <h4 id="copyTxt">Copyright © Ida Katrine Presttun-Brekken</h4>
       </section>

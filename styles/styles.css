@@ -91,25 +91,34 @@ body {
   border-top: 3px solid var(--cta);
 }
 
+#socials {
+  margin: 50px -8px 0px -8px;
+  padding: 0px 120px 100px 120px;
+}
+
 #picContainer {
+  text-align: center;
+}
+
+#contact {
+  margin: 0px -8px 0px -8px;
+  padding: 0px 120px 100px 120px;
+  border-top: 3px solid var(--cta);
+}
+
+#socials {
   text-align: center;
 }
 
 /***** HEADERS *****/
 
-#contact {
-  margin-bottom: 5px;
-}
-
 #logo {
   font-family: var(--logo);
-  font-size: 2.5rem;
   margin: 20px auto -20px auto;
 }
 
 #slogan,
 #navigation,
-#contact,
 #copyright,
 h1,
 h2,
@@ -121,7 +130,6 @@ h6 {
 }
 
 #slogan {
-  font-size: 1.8rem;
   margin-top: -20px;
 }
 
@@ -142,7 +150,6 @@ h3 {
 }
 
 h4,
-#contact,
 #copyTxt {
   font-size: 1.5rem;
 }
@@ -166,7 +173,7 @@ h6 {
 
 #logo,
 #navigation,
-#contact,
+.social-media,
 a {
   color: var(--cta);
 }
@@ -203,6 +210,7 @@ li {
 }
 
 .card {
+  margin-top: 20px;
   padding: 10px;
   background-color: var(--altbg);
   color: var(--alttxt);
@@ -229,6 +237,11 @@ li {
   border-radius: 15px;
 }
 
+input,
+textarea {
+  width: 90%;
+}
+
 /********** MEDIA QUERIES **********/
 
 /***** MOBILE *****/
@@ -237,6 +250,13 @@ li {
 
   /*** HEADERS ***/
 
+  #logo {
+    font-size: 2.1rem;
+  }
+
+  #slogan {
+    font-size: 1.4rem;
+  }
   /*** LINKS ***/
 
   /*** CONTENT ***/
@@ -248,6 +268,13 @@ li {
 
   /*** HEADERS ***/
 
+  #logo {
+    font-size: 2.3rem;
+  }
+
+  #slogan {
+    font-size: 1.6rem;
+  }
   /*** LINKS ***/
 
   /*** CONTENT ***/
@@ -259,6 +286,13 @@ li {
 
   /*** HEADERS ***/
 
+  #logo {
+    font-size: 2.5rem;
+  }
+
+  #slogan {
+    font-size: 1.8rem;
+  }
   /*** LINKS ***/
 
   /*** CONTENT ***/
