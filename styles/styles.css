@@ -130,6 +130,7 @@ body {
 
 #logo {
   font-family: var(--logo);
+  color: var(--maintxt);
   margin: 20px auto -10px auto;
 }
 
@@ -185,7 +186,6 @@ h6 {
   text-align: center;
 }
 
-#logo,
 #navigation {
   color: var(--cta);
   font-size: 1.3rem;
