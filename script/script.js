@@ -19,9 +19,49 @@ function scrollFunction() {
 /* Image modal */
 var modal = document.getElementById("modalContainer");
 
-var modalImg = document.getElementById("modalImg");
 var imgPreview = document.getElementById("imgPreview");
-modalImg.onclick = function () {
+var modalGHI = document.getElementById("modalImg-ghi");
+modalGHI.onclick = function () {
+  modal.style.display = "block";
+  imgPreview.src = this.src;
+};
+var modalGHGL = document.getElementById("modalImg-ghgl");
+modalGHGL.onclick = function () {
+  modal.style.display = "block";
+  imgPreview.src = this.src;
+};
+var modalGHGD = document.getElementById("modalImg-ghgd");
+modalGHGD.onclick = function () {
+  modal.style.display = "block";
+  imgPreview.src = this.src;
+};
+var modalCSMI = document.getElementById("modalImg-csmi");
+modalCSMI.onclick = function () {
+  modal.style.display = "block";
+  imgPreview.src = this.src;
+};
+var modalCSME = document.getElementById("modalImg-csme");
+modalCSME.onclick = function () {
+  modal.style.display = "block";
+  imgPreview.src = this.src;
+};
+var modalCSMV = document.getElementById("modalImg-csmv");
+modalCSMV.onclick = function () {
+  modal.style.display = "block";
+  imgPreview.src = this.src;
+};
+var modalWOTWI = document.getElementById("modalImg-wotwi");
+modalWOTWI.onclick = function () {
+  modal.style.display = "block";
+  imgPreview.src = this.src;
+};
+var modalWOTWPL = document.getElementById("modalImg-wotwpl");
+modalWOTWPL.onclick = function () {
+  modal.style.display = "block";
+  imgPreview.src = this.src;
+};
+var modalWOTWPD = document.getElementById("modalImg-wotwpd");
+modalWOTWPD.onclick = function () {
   modal.style.display = "block";
   imgPreview.src = this.src;
 };

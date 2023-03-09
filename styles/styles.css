@@ -258,7 +258,15 @@ nav li {
   width: 45px;
 }
 
-#modalImg {
+#modalImg-ghi,
+#modalImg-ghgl,
+#modalImg-ghgd,
+#modalImg-csmi,
+#modalImg-csme,
+#modalImg-csmv,
+#modalImg-wotwi,
+#modalImg-wotwpl,
+#modalImg-wotwpd {
   max-width: 100%;
   border: 1px solid var(--txt-alt);
   border-radius: 15px;
@@ -268,7 +276,7 @@ nav li {
 .modal {
   display: none;
   position: fixed;
-  z-index: 5;
+  z-index: 1;
   left: 0;
   top: 0;
   width: 100%;
@@ -282,7 +290,7 @@ nav li {
 .modalContent {
   display: block;
   margin: auto;
-  width: 80%;
+  width: 75%;
   animation-name: zoom;
   animation-duration: 0.8s;
 }
@@ -301,14 +309,14 @@ nav li {
   top: 15px;
   right: 35px;
   color: var(--cta);
-  font-size: 40px;
+  font-size: 5rem;
   font-weight: bold;
   transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-  color: var(--bg-main);
+  color: var(--maintxt);
   text-decoration: none;
   cursor: pointer;
 }
