@@ -1,6 +1,6 @@
 # Portfolio 1
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](visuals\portfolio-500.png)
 
 The purpose of this project is to showcase the larger projects I have worked with so far in my Front End Development study programme.
 
@@ -44,7 +44,6 @@ Fonts are downloaded and installed from [GoogleFonts](https://fonts.google.com/)
 
 Icons are downloaded from [Flaticon](https://www.flaticon.com/)
 
-- Nur Farhan: Arrow up [ArrowBlackFill](https://www.flaticon.com/packs/arrow-631)
 - Freepik: GitHub icon [InternetSquare](https://www.flaticon.com/packs/internet-67)
 - Freepik: Social media icons [SocialSwuare](https://www.flaticon.com/packs/social-37)
-- Creatype: Website icon [WebsiteGlyph](https://www.flaticon.com/packs/website-21)
+- ifans28: Link icon [ifans28](https://www.flaticon.com/packs/interface-basic-10)
