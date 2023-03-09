@@ -16,6 +16,22 @@ function scrollFunction() {
   }
 }
 
+/* Image modal */
+var modal = document.getElementById("modalContainer");
+
+var modalImg = document.getElementById("modalImg");
+var imgPreview = document.getElementById("imgPreview");
+modalImg.onclick = function () {
+  modal.style.display = "block";
+  imgPreview.src = this.src;
+};
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
 /* Form Validation */
 function validateForm() {
   let fullName = document.forms["contactForm"]["fullname"].value;
