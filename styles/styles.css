@@ -74,7 +74,7 @@ nav {
   top: 0;
   left: 0;
   padding: 5px;
-  background: var(--mainbg);
+  background: var(--altbg);
   text-align: center;
   border-bottom: 2px solid var(--cta);
 }
@@ -135,14 +135,11 @@ body {
 }
 
 #slogan,
-#navigation,
 #copyright,
 h1,
 h2,
 h3,
 h4,
-h5,
-h6,
 label {
   font-family: var(--header);
 }
@@ -169,26 +166,11 @@ h4,
   font-size: 1.5rem;
 }
 
-h5 {
-  font-size: 1.3rem;
-}
-
-h6 {
-  font-size: 1.1rem;
-}
-
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
   text-transform: uppercase;
   text-align: center;
-}
-
-#navigation {
-  color: var(--cta);
-  font-size: 1.3rem;
 }
 
 #slogan,
@@ -208,7 +190,7 @@ label {
   border-radius: 15px 15px 0px 0px;
 }
 
-.social-media {
+.socialMedia {
   color: var(--maintxt);
   font-size: 1.3rem;
 }
@@ -248,13 +230,6 @@ li {
 #about p {
   line-height: 200%;
   color: var(--alttxt);
-}
-
-#navigation {
-  margin-top: 100px;
-  list-style-type: none;
-  font-size: 1rem;
-  text-align: center;
 }
 
 nav li {
@@ -298,6 +273,8 @@ textarea {
   margin-bottom: 20px;
   display: inline-block;
   height: 30px;
+  max-width: 500px;
+  width: 90%;
   background-color: var(--alttxt);
   color: var(--mainbg);
   border: 2px solid var(--altbg);
@@ -341,11 +318,6 @@ textarea {
 
   /*** CONTENT ***/
 
-  input,
-  textarea {
-    width: 100%;
-  }
-
   textarea {
     height: 100px;
   }
@@ -381,10 +353,6 @@ textarea {
   }
 
   /*** CONTENT ***/
-  input,
-  textarea {
-    width: 70%;
-  }
 
   textarea {
     height: 100px;
@@ -421,11 +389,6 @@ textarea {
   }
 
   /*** CONTENT ***/
-
-  input,
-  textarea {
-    width: 50%;
-  }
 
   textarea {
     height: 150px;
