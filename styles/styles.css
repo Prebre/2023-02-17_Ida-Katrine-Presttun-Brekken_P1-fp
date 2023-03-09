@@ -227,6 +227,10 @@ li {
   font-weight: 600;
 }
 
+.left {
+  text-align: left;
+}
+
 #about p {
   line-height: 200%;
   color: var(--alttxt);
