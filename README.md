@@ -1,6 +1,6 @@
 # Portfolio 1
 
-![image](visuals/portfolio-index-1000.png)
+![image](visuals/portfolio-index.png)
 
 The purpose of this project is to showcase the larger projects I have worked with so far in my Front End Development study programme.
 
